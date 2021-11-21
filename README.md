@@ -1,6 +1,4 @@
-## Summary
-
-This is a project created when participating in Hackerearth's [Impact Analytics React Hiring challenge - 2021](https://assessment.hackerearth.com/challenges/hiring/impact-analytics-react-hiring-challenge/) challenge
+[Impact Analytics React Hiring challenge - 2021](https://assessment.hackerearth.com/challenges/hiring/impact-analytics-react-hiring-challenge/) challenge
 
 ## Tools & Libraries used
 
