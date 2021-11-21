@@ -1,0 +1,27 @@
+.candidate-details {
+  display: flex;
+  flex-direction: column;
+
+  gap: 1rem;
+}
+
+.candidate-details__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.candidate-details__image img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: contain;
+  height: 450px;
+  width: 450px;
+}
+
+.candidate-details__right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}

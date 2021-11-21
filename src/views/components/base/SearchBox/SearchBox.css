@@ -1,0 +1,37 @@
+.searchbox {
+  display: flex;
+  /* border-left: 2px solid #e0e0e0; */
+  background-color: #ffffff;
+  height: 33px;
+  border-radius: 20px;
+}
+
+.searchbox_actionbar {
+  margin-left: auto;
+}
+
+.searchbox__icon {
+  display: flex;
+  align-items: center;
+}
+
+.searchbox .searchbox__icon .MuiSvgIcon-root {
+  fill: #000000;
+}
+
+.searchbox.searchbox_actionbar .MuiInputBase-input {
+  font-family: SF Pro Display;
+  color: #838383;
+  font-size: 0.75rem;
+}
+.searchbox_input_SearchList {
+  padding: 0.69rem;
+  width: 100%;
+}
+.inputtitle {
+  height: 72%;
+  overflow: auto;
+}
+.searchboxpanel .MuiInputBase-root {
+  font-family: 'SF Pro Display';
+}

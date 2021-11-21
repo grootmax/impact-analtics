@@ -1,0 +1,41 @@
+.pagenotfound {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #cfcfcf;
+  height: 100vh;
+  width: 100%;
+}
+
+.pagenotfound__title {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.pagenotfound__header {
+  font-size: 15rem;
+  font-weight: 600;
+  align-self: center;
+}
+
+.pagenotfound__subheader {
+  font-size: 3rem;
+  align-self: center;
+}
+
+.pagenotfound__back {
+  display: flex;
+  font-size: 2rem;
+  margin: 2rem;
+}
+
+.pagenotfound__backicon {
+  margin-right: 1rem;
+}
+
+.pagenotfound__backicon .MuiSvgIcon-root {
+  font-size: 1em;
+  cursor: pointer;
+}

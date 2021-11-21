@@ -1,0 +1,30 @@
+.toggle {
+  position: static;
+  height: 40px;
+  border-radius: 12px;
+}
+
+.toggle .MuiToggleButton-root {
+  width: auto;
+  height: 40px;
+  font-family: Roboto;
+  color: #303030;
+  flex: none;
+  order: 0;
+  align-self: center;
+  background-color: #ffffff;
+  border-radius: 8px;
+  border: 1px solid #d6d6d6;
+  text-transform: none;
+}
+
+.toggle .MuiToggleButton-root:hover {
+  background-color: #595959;
+  color: #ffffff;
+}
+
+.toggle .MuiToggleButton-root.Mui-selected {
+  background-color: rgba(0, 0, 0, 0.15);
+  width: auto;
+  color: #ffffff;
+}

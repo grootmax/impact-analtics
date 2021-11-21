@@ -1,0 +1,14 @@
+.candidate-lists {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.candidate-lists__header {
+  font-size: 2rem;
+  margin: auto;
+}
+
+.candidate-lists__lists {
+  background-color: #424242;
+}

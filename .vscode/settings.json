@@ -1,0 +1,34 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "eslint.alwaysShowStatus": true,
+  "eslint.format.enable": false,
+  "eslint.packageManager": "yarn",
+  "eslint.codeAction.showDocumentation": {
+    "enable": true
+  },
+  "files.exclude": {
+    "USE_GITIGNORE": true
+  },
+  "eslint.onIgnoredFiles": "off",
+  "eslint.options": {
+    "extensinons": [".ts", ".js", ".tsx", ".jsx"]
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.validate": ["javascript", "javascriptreact"],
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "eslint.nodePath": "",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "javascript.implicitProjectConfig.experimentalDecorators": true,
+  "editor.suggestSelection": "first",
+  "editor.smoothScrolling": false,
+  "breadcrumbs.enabled": true,
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
+}

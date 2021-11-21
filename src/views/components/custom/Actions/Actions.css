@@ -1,0 +1,30 @@
+.actions {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.actions .actions__item {
+  margin: 0.5rem;
+}
+
+.actions .actions__item.shortlist {
+  background-color: #4caf50;
+}
+
+.actions .actions__item.shortlist:hover {
+  /* background-color: rgba(0, 0, 0, 0.6); */
+  color: #000000;
+}
+
+.actions .actions__item.reject {
+  background-color: #f44336;
+}
+
+.actions .actions__item.reject:hover {
+  /* background-color: rgba(0, 0, 0, 0.6); */
+  color: #000000;
+}
+
+#download-link {
+  display: none;
+}

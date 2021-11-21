@@ -1,0 +1,48 @@
+.create-usergroup__user {
+  display: flex;
+  justify-self: center;
+  position: relative;
+
+  background-color: transparent;
+}
+
+.create-usergroup__usericon {
+  width: 180px;
+  height: 180px;
+  object-fit: contain;
+  background-position: center;
+  background-origin: border-box;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.create-usergroup__check.MuiIconButton-root {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #5798eb;
+}
+
+.create-usergroup__check.MuiIconButton-root:hover {
+  background-color: #5798eb;
+}
+
+.create-usergroup__username {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #5798eb;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2rem;
+  border-radius: 0px 0px 20px 20px;
+  font-weight: 700;
+}
+
+.create-usergroup__usericon.MuiSvgIcon-root,
+.create-usergroup__groupavatar.MuiSvgIcon-root {
+  font-size: 10rem;
+}

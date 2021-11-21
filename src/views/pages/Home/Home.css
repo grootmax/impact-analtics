@@ -1,0 +1,32 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.home__header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-size: 2rem;
+}
+
+.home__search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+
+.home__userstatus {
+  display: flex;
+  justify-content: center;
+}
+
+.home__cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
